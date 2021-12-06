@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useHead } from '@vueuse/head'
+import TheNav from './components/TheNav.vue'
 useHead({
   title: 'Vite Starter',
   meta: [
@@ -12,6 +13,7 @@ useHead({
 </script>
 
 <template>
+  <TheNav />
   <router-view />
 </template>
 
